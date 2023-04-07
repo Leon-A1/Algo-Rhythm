@@ -1,0 +1,45 @@
+.bar {
+  box-shadow: 1px 0px 0 0px #fff;
+  background: linear-gradient(0deg, #2d0505 10%, #704e4e 35%, #8b1616 100%);
+}
+
+/* .bar:hover {
+  transform: scale(1.1) !important;
+} */
+
+.swap1 {
+  border: "solid 1px white";
+
+  background: linear-gradient(0deg, #28214d 0%, #ef50aa 35%, #bcb4e4 110%);
+}
+
+.swap2 {
+  border: "solid 1px white";
+
+  background: linear-gradient(0deg, #28214d 0%, #50ef9d 35%, #bcb4e4 110%);
+}
+
+/* .sorted {
+  background: linear-gradient(0deg, #214d39 0%, #4caf5e 35%, #4caf96 110%);
+  box-shadow: 1px 0px 0 0px #4e5052;
+  animation-name: sorted-animation;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+}
+
+@keyframes sorted-animation {
+  0% {
+    background: rgb(76, 175, 94, 0.);
+  }
+  50% {
+    background: rgb(76, 175, 94);
+  }
+  100% {
+    background: rgb(76, 175, 94);
+  }
+} */
