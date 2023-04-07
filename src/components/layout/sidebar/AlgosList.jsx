@@ -95,13 +95,6 @@ const AlgosList = () => {
           handleClick={prepareAlgo}
         />
       ))}
-      <ListHeader label="Search" />
-
-      <ListButton
-        label="Dynamic-Path-Finder"
-        startIcon={<TimelineIcon />}
-        handleClick={prepareAlgo}
-      />
     </List>
   );
 };

@@ -23,10 +23,11 @@ const Header = ({ show }) => {
           transition: "all 0.3s",
           fontSize: { xs: 45, sm: 50, md: 60, lg: 80, xl: 90 },
           WebkitTextFillColor: "transparent",
-          background: "linear-gradient(10deg, #735ED9 30%, #a598e7 50%, #735ED9 80%)",
+          background:
+            "linear-gradient(10deg, #601010 30%, #8B1616 50%, #fff 80%)",
           WebkitBackgroundClip: "text",
           filter: `drop-shadow(3px 3px 0px ${
-            colorMode === "light" ? "#2E2659" : "#FFFFFF"
+            colorMode === "light" ? "#fff" : "#FFFFFF"
           })`,
         }}
         fontWeight={800}

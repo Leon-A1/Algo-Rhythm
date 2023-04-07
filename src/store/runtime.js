@@ -11,7 +11,6 @@ const runtimeConfig = createSlice({
     isPainted: false,
     isRunning: false,
     isShuffling: false,
-    // dynamicMode: false,
     midwayActive: false,
     isMazeRunning: false,
     mouseChaseActive: false,
@@ -29,7 +28,8 @@ const runtimeConfig = createSlice({
     },
     snapshotTook: (state, { payload }) => {
       const { category, val } = payload;
-      for (const att of Object.keys(val)) state.snapshot[category][att] = val[att];
+      for (const att of Object.keys(val))
+        state.snapshot[category][att] = val[att];
     },
     indicesChanged: (state, { payload }) => {
       const { category, val } = payload;
